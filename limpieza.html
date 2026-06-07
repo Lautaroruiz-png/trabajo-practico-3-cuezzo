@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos de Limpieza - Uso de Productos Contaminantes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f6f8f7;
+    color:#333;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1583947582886-f40ec95dd752?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.4rem;
+    line-height:1.8;
+}
+
+.container{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+    padding:80px 0;
+}
+
+.section{
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.section h2{
+    color:#2d6a4f;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+.section p{
+    line-height:2;
+    text-align:justify;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    border-top:5px solid #52b788;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#2d6a4f;
+    margin-bottom:15px;
+}
+
+.quote{
+    background:linear-gradient(135deg,#2d6a4f,#52b788);
+    color:white;
+    text-align:center;
+    padding:60px;
+    border-radius:20px;
+    margin-top:40px;
+}
+
+.quote h2{
+    font-size:2rem;
+}
+
+.banner img{
+    width:100%;
+    border-radius:20px;
+    margin-top:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:40px;
+    padding:15px 30px;
+    background:#52b788;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#2d6a4f;
+}
+
+footer{
+    background:#2d6a4f;
+    color:white;
+    text-align:center;
+    padding:35px;
+    margin-top:80px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero p{
+    font-size:1.1rem;
+}
+
+.section{
+    padding:30px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Productos de Limpieza</h1>
+
+        <p>
+            Aunque son esenciales para la higiene y la desinfección, muchos productos de limpieza contienen sustancias que pueden afectar al medio ambiente.
+        </p>
+
+    </div>
+
+</section>
+
+<div class="container">
+
+    <section class="section">
+
+        <h2>¿Qué son los productos de limpieza contaminantes?</h2>
+
+        <p>
+            Los productos de limpieza contaminantes son aquellos que contienen compuestos químicos capaces de generar efectos negativos sobre el medio ambiente cuando son utilizados o eliminados de manera inadecuada. Entre ellos se encuentran detergentes, lavandinas, desinfectantes, limpiadores multiuso y desengrasantes.
+        </p>
+
+        <p>
+            Estos productos suelen llegar a los sistemas de alcantarillado y posteriormente a ríos, lagos y mares, donde pueden alterar los ecosistemas acuáticos y afectar a diversas especies.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Sustancias más comunes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🧪 Fosfatos</h3>
+                <p>Presentes en algunos detergentes, favorecen el crecimiento excesivo de algas en ríos y lagos.</p>
+            </div>
+
+            <div class="card">
+                <h3>☣️ Cloro</h3>
+                <p>Utilizado en lavandinas y desinfectantes, puede resultar tóxico para organismos acuáticos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🧴 Tensioactivos</h3>
+                <p>Ayudan a eliminar la suciedad, pero algunos son difíciles de degradar en el ambiente.</p>
+            </div>
+
+            <div class="card">
+                <h3>⚠️ Amoníaco</h3>
+                <p>Presente en ciertos limpiadores, puede contaminar el agua y afectar la calidad del aire.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Impacto Ambiental</h2>
+
+        <p>
+            Cuando estos productos llegan a los cuerpos de agua, pueden alterar la composición química del ecosistema y afectar la vida de peces, plantas y microorganismos. Además, algunas sustancias permanecen durante largos períodos en el ambiente antes de degradarse.
+        </p>
+
+        <p>
+            El uso excesivo de productos químicos también puede generar residuos peligrosos que terminan contaminando el suelo y afectando los recursos naturales.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Consecuencias Principales</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💧 Contaminación del Agua</h3>
+                <p>Los residuos químicos alteran la calidad del agua y dañan los ecosistemas acuáticos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌱 Daño al Suelo</h3>
+                <p>Algunos compuestos se acumulan y dificultan la recuperación natural del terreno.</p>
+            </div>
+
+            <div class="card">
+                <h3>🐟 Pérdida de Biodiversidad</h3>
+                <p>Muchas especies pueden verse afectadas por la exposición a sustancias tóxicas.</p>
+            </div>
+
+            <div class="card">
+                <h3>🫁 Riesgos para la Salud</h3>
+                <p>La exposición prolongada a ciertos productos puede causar irritaciones y problemas respiratorios.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Alternativas Más Seguras</h2>
+
+        <p>
+            Existen productos biodegradables y ecológicos que cumplen la misma función de limpieza con un menor impacto ambiental. También es posible utilizar alternativas naturales como el vinagre, el bicarbonato de sodio y el jabón neutro.
+        </p>
+
+        <p>
+            Elegir productos certificados como ecológicos y utilizarlos de manera responsable ayuda a reducir significativamente la contaminación.
+        </p>
+
+    </section>
+
+    <section class="quote">
+
+        <h2>
+            "Mantener nuestros espacios limpios no debería significar ensuciar el planeta." 🌎🧼
+        </h2>
+
+    </section>
+
+    <section class="banner">
+
+        <img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=1600" alt="Productos de limpieza">
+
+    </section>
+
+    <a href="index.html" class="btn">⬅ Volver al Inicio</a>
+
+</div>
+
+<footer>
+
+    <h3>Proyecto Educativo</h3>
+
+    <p>Uso de Productos Contaminantes y su Impacto Ambiental</p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aerosoles - Uso de Productos Contaminantes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7f5;
+    color:#333;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.4rem;
+    line-height:1.8;
+}
+
+.container{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+    padding:80px 0;
+}
+
+.section{
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.section h2{
+    color:#1b4332;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+.section p{
+    line-height:2;
+    text-align:justify;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    border-top:5px solid #2d6a4f;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#1b4332;
+    margin-bottom:15px;
+}
+
+.quote{
+    background:linear-gradient(135deg,#1b4332,#2d6a4f);
+    color:white;
+    text-align:center;
+    padding:60px;
+    border-radius:20px;
+    margin-top:40px;
+}
+
+.quote h2{
+    font-size:2rem;
+}
+
+.banner img{
+    width:100%;
+    border-radius:20px;
+    margin-top:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:40px;
+    padding:15px 30px;
+    background:#2d6a4f;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1b4332;
+}
+
+footer{
+    background:#1b4332;
+    color:white;
+    text-align:center;
+    padding:35px;
+    margin-top:80px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero p{
+    font-size:1.1rem;
+}
+
+.section{
+    padding:30px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Aerosoles</h1>
+
+        <p>
+            Productos de uso cotidiano que pueden tener importantes efectos sobre el medio ambiente y la calidad del aire.
+        </p>
+
+    </div>
+
+</section>
+
+<div class="container">
+
+    <section class="section">
+
+        <h2>¿Qué son los aerosoles?</h2>
+
+        <p>
+            Los aerosoles son productos que liberan sustancias en forma de pequeñas partículas o gotas suspendidas en el aire. Se utilizan en desodorantes, pinturas, insecticidas, limpiadores, ambientadores y muchos otros productos de uso diario.
+        </p>
+
+        <p>
+            Aunque son prácticos y ampliamente utilizados, algunos aerosoles contienen compuestos químicos que pueden afectar la calidad del aire y contribuir a distintos problemas ambientales.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Impacto Ambiental</h2>
+
+        <p>
+            Algunos aerosoles liberan compuestos orgánicos volátiles (COV), sustancias que reaccionan en la atmósfera y contribuyen a la formación de smog y contaminación atmosférica. Estos contaminantes pueden afectar tanto al medio ambiente como a la salud humana.
+        </p>
+
+        <p>
+            En el pasado, muchos aerosoles contenían clorofluorocarbonos (CFC), gases responsables del deterioro de la capa de ozono. Aunque actualmente su uso está muy restringido en numerosos países, este problema demuestra cómo ciertos productos pueden generar consecuencias ambientales a gran escala.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Principales Problemas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌫 Contaminación del Aire</h3>
+                <p>Los aerosoles pueden liberar sustancias que deterioran la calidad del aire.</p>
+            </div>
+
+            <div class="card">
+                <h3>☀️ Capa de Ozono</h3>
+                <p>Algunos gases utilizados antiguamente dañaban la capa de ozono.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌍 Cambio Climático</h3>
+                <p>Ciertos compuestos contribuyen al efecto invernadero.</p>
+            </div>
+
+            <div class="card">
+                <h3>🫁 Salud Humana</h3>
+                <p>La inhalación excesiva puede provocar problemas respiratorios.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Alternativas Más Sostenibles</h2>
+
+        <p>
+            Para reducir el impacto ambiental, es recomendable utilizar productos con pulverizadores mecánicos, envases reutilizables o alternativas ecológicas que no empleen gases contaminantes.
+        </p>
+
+        <p>
+            También es importante leer las etiquetas de los productos y elegir aquellos que indiquen ser respetuosos con el medio ambiente.
+        </p>
+
+    </section>
+
+    <section class="quote">
+
+        <h2>
+            "Elegir productos más sostenibles hoy ayuda a construir un aire más limpio para mañana." 🌎
+        </h2>
+
+    </section>
+
+    <section class="banner">
+
+        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1600" alt="Aerosoles">
+
+    </section>
+
+    <a href="index.html" class="btn">⬅ Volver al Inicio</a>
+
+</div>
+
+<footer>
+
+    <h3>Proyecto Educativo</h3>
+
+    <p>Uso de Productos Contaminantes y su Impacto Ambiental</p>
+
+</footer>
+
+</body>
+</html>
